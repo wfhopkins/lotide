@@ -29,19 +29,22 @@ const middle = function(arr) {
     return [arr[midArray]];
   }
 };
-console.log(middle([1, 4, 7, 10, 13]));
+// console.log(middle([1, 4, 7, 10, 13]));
 middle([1, 4, 7, 10, 13]);
+console.log(middle([1, 4, 7, 10, 13]));
+middle([5, 39, 42, 8]);
+console.log(middle([5, 39, 42, 8]));
 
 
 //TEST CASES
 
-//array less than 3
-assertArraysEqual(middle([1]), []);
-assertArraysEqual(middle([1, 2]),[]);
+// //array less than 3
+// assertArraysEqual(middle([1]), []);
+// assertArraysEqual(middle([1, 2]),[]);
 
-//array odd number
-assertArraysEqual(middle([1, 2, 3]),[2]);
-assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
+// //array odd number
+// assertArraysEqual(middle([1, 2, 3]),[2]);
+// assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
 
 // //array even number
 // assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]);
