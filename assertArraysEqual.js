@@ -10,12 +10,12 @@ let eqArrays = function(arr1, arr2) {
 let assertArraysEqual = function(arr1, arr2) {
   let result = eqArrays(arr1, arr2);
   if (result === true) {
-    console.log("Arrays are equal:", arr1, arr2)
-  } else {  
-    console.log("Arrays are not equal:", arr1, arr2)
+    console.log("Arrays are equal:", arr1, arr2);
+  } else {
+    console.log("Arrays are not equal:", arr1, arr2);
   }
   return eqArrays(arr1, arr2);
-}
+};
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
 assertArraysEqual([1, 2, 3], [1, 2, 4]);
