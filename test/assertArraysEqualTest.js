@@ -16,5 +16,4 @@ describe("assertArraysEqual", function() {
     const expected = false;
     assertArraysEqual(actual, expected)
   });
-
 });
