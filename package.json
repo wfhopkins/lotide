@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@wfhopkins/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "mini clone of lodash library for Lighthouse Labs Bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/wfhopkins/lotide.git"
   },
-  "author": "",
+  "author": "@wfhopkins",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wfhopkins/lotide/issues"
