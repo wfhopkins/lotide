@@ -21,3 +21,5 @@ const countLetters = function(string) {
 
 console.log(countLetters("paparazzi"));
 countLetters("paparazzi");
+
+module.exports = countLetters;

@@ -27,7 +27,9 @@ const map = function(array, callback) {
     results.push(callback(item));
   }
   return results;
-} 
+}
+
+module.exports = map;
 
 const results = map(words, word => word[0]);
 assertArraysEqual(map(words, word => word[0]), results);

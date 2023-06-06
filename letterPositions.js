@@ -17,6 +17,8 @@ let eqArrays = function(arr1, arr2) {
   return true;
 };
 
+module.exports = letterPositions;
+
 const letterPositions = function(sentence) {
   const results = {};
   for (let char of sentence) {
